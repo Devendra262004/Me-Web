@@ -1,0 +1,95 @@
+.body{
+    background-color: black;
+    margin: 0;
+}
+.nav{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ background-color:black;
+ font-weight: bold;
+}
+.home-left{
+    color: white;
+    text-align: right;
+    padding-right: 100px;
+    padding-left: 150px;
+    padding-bottom: 100px;
+}
+.home-right{
+  padding-right: 100px;
+  text-align: center;
+  padding-bottom: 100px;
+}
+.nav-right{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.logo{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.a-element{
+    @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap')
+    padding: 10px;
+    margin: 20px;
+    color: white;
+    font-size: 25px;
+    font-family: "Anton", sans-serif;
+    text-transform: uppercase;
+    
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50vw;
+}
+.heading{
+    text-align: center;
+}
+.serivce{
+    color: white;
+    text-align: center;
+}
+.serivce-sub-con{
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-around;
+}
+.serivce-card{
+    @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Madimi+One&family=Oswald&display=swap');
+    font-family: "Dosis", sans-serif;
+    border: 2px solid green;
+    margin: 40px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.head-h1{
+    @import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Oswald&display=swap');
+    color: green;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Madimi One", sans-serif;
+}
+.cont-con{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+.social-icon{
+    height: 30px;
+    margin: 40px;
+}
+.img-logo{
+    display: flex;
+    flex-direction: row;
+   padding-left: 500px;
+}
